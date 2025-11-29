@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TaskFlow Landing Page
 
-## Getting Started
+**TaskFlow** is a modern, responsive landing page built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. It is designed to showcase TaskFlow’s productivity features, pricing plans, and testimonials with smooth animations and an attractive UI.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* **Responsive Design:** Works seamlessly on desktop and mobile.
+* **Hero Section:** Animated hero with AI-powered productivity badge.
+* **Features Section:** Interactive cards with animated icons.
+* **Testimonials:** Rotating user reviews with stylish avatars.
+* **Pricing Plans:** Attractive pricing cards with highlights for popular plans.
+* **Footer:** Modern, animated, and fully responsive.
+* **Animations:** Built with Framer Motion for smooth transitions.
+
+---
+
+## 💻 Tech Stack
+
+* [Next.js](https://nextjs.org/) – React framework for server-side rendering and routing.
+* [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework.
+* [Framer Motion](https://www.framer.com/motion/) – For animations.
+* [Lucide React](https://lucide.dev/) – For icons.
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/taskflow-landing.git
+cd taskflow-landing
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Project Structure
 
-## Learn More
+```
+taskflow-landing/
+├─ app/
+│  ├─ components/
+│  │  ├─ Navbar.jsx
+│  │  ├─ Hero.jsx
+│  │  ├─ Features.jsx
+│  │  ├─ Testimonials.jsx
+│  │  ├─ Pricing.jsx
+│  │  └─ Footer.jsx
+│  └─ page.jsx
+├─ public/
+├─ styles/
+│  └─ globals.css
+├─ package.json
+└─ next.config.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+* **components/** – All UI sections with animations.
+* **public/** – Static assets like images or icons.
+* **styles/** – Tailwind and global styles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚡ Notes
 
-## Deploy on Vercel
+* All Framer Motion components must have `"use client";` at the top to prevent server-side rendering errors.
+* Tailwind CSS is configured for gradient themes and responsive layouts.
+* Replace placeholder content with real TaskFlow data as needed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+
+## 🔗 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🌟 Contribution
+
+Contributions, issues, and feature requests are welcome!
+Feel free to improve the UI, animations, or add new features.
+
+---
+
+**Made with ❤️ by Monika Senger**
+
+
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
